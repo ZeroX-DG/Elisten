@@ -1,7 +1,7 @@
 # Elisten
 An web app for improving English listening skill
 
-#Installation
+## Installation
 Clone this repo using the command<br>
 ```
 git clone https://github.com/ZeroX-DG/Elisten.git
@@ -20,7 +20,7 @@ gulp
 ```
 <br>
 Enjoy !
-#About the author
-My facebook: https://www.facebook.com/ZeroXCEH
-My publication on medium: https://medium.com/the-z
-My medium page: https://medium.com/@nguynvithng_34102
+## About the author
+My facebook: https://www.facebook.com/ZeroXCEH<br>
+My publication on medium: https://medium.com/the-z<br>
+My medium page: https://medium.com/@nguynvithng_34102<br>
