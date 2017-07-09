@@ -94,3 +94,101 @@ body, html{
     }
   }
 }
+=======
+body, html{
+  padding: 0;
+  margin: 0;
+  background: #2c3e50;
+}
+.circle{
+  border-radius: 50%;
+  border: none;
+  font-size: 2.5em;
+}
+.start{
+  font-family: "Raleway", "Open sans", "helvetica", sans-serif;
+  .title{
+    font-size: 3em;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  #btn_start{
+    width: 200px;
+    height: 200px;
+    background: #3498db;
+    color :white;
+    cursor: pointer;
+    outline: none;
+    margin-left: calc((100% - 200px) / 2);
+    margin-top: 100px;
+  }
+  .link{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.mainGame{
+  .topSection{
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+    #scoreText{
+      font-family: "Open Sans", sans-serif;
+    }
+    button{
+      border: none;
+      background: transparent;
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .textContainer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    font-size: 5em;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    .circle{
+      width: 200px;
+      height: 200px;
+      color: white;
+      cursor: pointer;
+      outline: none;
+    }
+    #btn_singular{
+      background: #3498db;
+    }
+    #btn_plural{
+      background: #9b59b6;
+    }
+  }
+}
+>>>>>>> 3b4a788b777b932e7138963925d12e306b115fc9
