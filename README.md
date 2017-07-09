@@ -6,19 +6,15 @@ Clone this repo using the command<br>
 ```
 git clone https://github.com/ZeroX-DG/Elisten.git
 ```
-<br>
-Make sure that you installed [yarn](https://yarnpkg.com/)
-<br>
-If you have yarn installed then you can use this command to install all the dependencies needed for development<br>
+Make sure that you installed [yarn](https://yarnpkg.com)<br>
+If you have yarn installed then you can use this command to install all the dependencies needed for development
 ```
 yarn install
 ```
-<br>
 Afterward, use the command gulp to run the server <br>
 ```
 gulp
 ```
-<br>
 Enjoy !
 ## About the author
 My facebook: https://www.facebook.com/ZeroXCEH<br>
