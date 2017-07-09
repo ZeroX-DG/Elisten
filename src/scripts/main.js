@@ -1,3 +1,5 @@
+"use strict";
+
 var word;
 function getRandomWord(){
   var url = "https://gist.githubusercontent.com/anonymous/ce33155706b285651abacd16d17824f0/raw/30eda7905bf51b9a3879d1e64e38d2ae928de96d/nounList.txt";
@@ -38,7 +40,6 @@ $(".resultBtn").click(function(){
   var currentButton = $(this).text();
   var isButtonSingular = currentButton == "Singular";
   var isWordSingular = word.plural(true) == word;
-  console.log(isButtonSingular, isWordSingular);
   if(isButtonSingular == isWordSingular){
     swal({
       title: "Good job!",
